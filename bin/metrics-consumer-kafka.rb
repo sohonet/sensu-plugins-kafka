@@ -102,7 +102,6 @@ class ConsumerOffsetMetrics < Sensu::Plugin::Metric::CLI::Graphite
       cmd += " --bootstrap-server #{config[:bootstrap]}" if config[:bootstrap]
       cmd += " --topic #{config[:topic]}" if config[:topic]
       cmd += " 2>&1"
-      puts cmd
 
       results = run_cmd(cmd).compact
 

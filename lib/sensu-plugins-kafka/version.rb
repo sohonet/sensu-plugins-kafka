@@ -6,8 +6,8 @@ module SensuPluginsKafka
   module Version
     MAJOR = 0
     MINOR = 8
-    PATCH = 2sohonet
+    PATCH = 2
 
-    VER_STRING = [MAJOR, MINOR, PATCH].compact.join('.')
+    VER_STRING = [MAJOR, MINOR, PATCH, 'sohonet'].compact.join('.')
   end
 end
