@@ -26,7 +26,6 @@
 
 require 'sensu-plugin/metric/cli'
 require 'popen4'
-require 'pry'
 
 class ConsumerOffsetMetrics < Sensu::Plugin::Metric::CLI::Graphite
   option :scheme,
